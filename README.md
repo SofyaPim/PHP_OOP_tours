@@ -5,10 +5,10 @@
 ### Header & footer вынесены в отдельный какталог и подключаются к страницам с  require($_SERVER['DOCUMENT_ROOT']."/myProject2/components/header/index.php")
 ### шрифты подключены с помощью правила @font-face
 ## Для использования проекта, убедитесь в правильности написания подключения своих данных в 
-define('DB_HOST','host');
-define('DB_USER','user');
-define('DB_PASSWORD','pass'); 
-define('DB_NAME','db');
-## И, конечно, не забудьте импортитровать или с копировать БД!
+define('DB_HOST','host');<br>
+define('DB_USER','user');<br>
+define('DB_PASSWORD','pass'); <br>
+define('DB_NAME','db');<br>
+## И, конечно, не забудьте импортитровать или скопировать БД!
 ## А дальше PHP вместе с Вашим браузером подскажут, если где упустили пути)))
 
